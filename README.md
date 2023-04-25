@@ -13,7 +13,7 @@ The project gathers tech news information from websites through webscraping, the
 
 FLOW:
 
-DATABRICKS(Python) ---**REST API**---> NEWS WEBSITES(source) ------> WEB SCRAPING ------> SUMMARIZED NEWS ---**COURIER API**---> MAIL INBOX
+DATABRICKS(Python) ---**REST API**---> NEWS WEBSITES(source) ------> WEB SCRAPING ------> RAW DATA ---**TRANSFORMATION**---> SUMMARIZED NEWS ---**COURIER API**---> MAIL INBOX
 
 
 ## How we built it
